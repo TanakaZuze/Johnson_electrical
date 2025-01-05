@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    background: 
+      url("../images/bg.jpg");
+    background-position: bottom;
+    background-size: 37%;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+  }
+  .logo img {
+    height:60px;
+    width: auto;
+    mix-blend-mode: color-burn;
+  }
+  .logo img:hover {
+    transform: scale(1.05);
+}
+
+.links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.801);
+    padding: 0 10px;
+    font-size: 1.25rem;
+    color: rgb(11, 57, 68);
+}
+
+.links a :hover {
+    color: #fda82b;
+    padding-right: 6px;
+    font-size: 1.29rem;
+    letter-spacing: 5px;
+}
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    
+  }
+  
+
+  /* Services section */
+
+  /* Services ie different classes */
+.services-header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.services-header h2 {
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.services-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.service-grid {
+    margin: 0 10px;
+    width: 25%;
+    background-color: #ececec94;
+    padding: 20px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.service-grid p {
+    text-align: center;
+    margin: 10px;
+}
+
+
+/*  Carousel header*/
+.completed-work-header h1{
+    margin-top: 75px;
+}
+
+.work-images {
+  display: grid;
+  grid-template-columns: auto auto auto; /* Responsive grid */
+  gap: 15px; /* Space between images */
+  width: 90%;
+  margin: auto;
+}
+
+.work-images img {
+  width: 100%; /* Fit within the grid cell */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 450px; /* Restrict maximum height */
+  object-fit: cover; /* Keeps image aspect ratio within bounds */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Optional: Shadow for styling */
+}
