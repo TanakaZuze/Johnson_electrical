@@ -271,7 +271,7 @@ nav {
   }
 
   .footer-links {
-    width: 50%;
+    width: 90%;
     margin: auto;
   }
 }
@@ -303,7 +303,7 @@ nav {
   }
 
   .footer-box {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-direction: column;
